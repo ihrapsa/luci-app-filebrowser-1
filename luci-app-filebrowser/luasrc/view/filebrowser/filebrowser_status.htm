@@ -7,7 +7,7 @@ XHR.poll(1, '<%=url([[admin]], [[nas]], [[filebrowser]], [[status]])%>', null,
 				var links = '<font color=green>Filebrowser <%:RUNING%></font><input class="cbi-button mar-10" type="button" value="<%:Open FileBrowser%>" onclick="openClient();" />';
 				tb.innerHTML = links;
 			} else {
-				tb.innerHTML = '<font color=red>Filebrowser <%:未运行%></font>';
+				tb.innerHTML = '<font color=red>Filebrowser <%:is not Running%></font>';
 			}
 		}
 	}
